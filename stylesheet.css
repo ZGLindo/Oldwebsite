@@ -1,16 +1,20 @@
+html{
+	background-color:black;
+};
+
 div {
-	border-radius: 5px;
+	border-radius: 1px;
 }
 
 #header {
 	z-index: 1;
 	position: fixed;
-	width: 100%;
+	width: 98.75%;
+	margin-right: 5px;
 	margin-top: -20px;
 	height: 60px;
 	background-color: #696969;
 	margin-bottom: 10px;
-	border-radius: 5px;
 }
 
 #name {
@@ -19,8 +23,9 @@ div {
 	padding-top: 5px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: black;
-	float:center;
+	color: #ffffff;
+	text-align:center;
+	font-style: bold;
 }
 
 #email{
@@ -29,17 +34,19 @@ div {
 	padding-top: 5px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: black;
+	color: #ffffff;
+	font-style:bold;
 }
 
 h4 {
+	text-align: left;
 	margin-left: 5px;
 	margin-bottom: 15px;
 	font-family: Verdana, sans-serif;
 }
 
 .right p {
-	margin-left: 5px;
+	margin-left: 50px;
 	margin-right: 5px;
 	margin-top: -10px;
 	font-family: Garamond, serif;
