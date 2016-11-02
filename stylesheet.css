@@ -8,8 +8,9 @@ div {
 	width: 97.5%;
 	margin-top: -20px;
 	height: 60px;
-	background-color: #668284;
+	background-color: #198700;
 	margin-bottom: 10px;
+	border-radius: 0px;
 }
 
 #name {
