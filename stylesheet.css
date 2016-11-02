@@ -6,6 +6,11 @@ div {
 	border-radius: 20px;
 }
 
+p {
+	font-size: 16px;
+	font-weight: 550px;
+}
+
 #header {
 	z-index: 1;
 	position: fixed;
@@ -32,14 +37,14 @@ div {
 	padding-top: 5px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: #ffffff;
+	color: black;
 	font-style:bold;
 }
 
 h3 {
 	text-align: left;
 	margin-left: 5px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	font-family: Helvetica, sans-serif;
 	font-variant: small-caps;
 	font-weight: bolder;
@@ -57,6 +62,7 @@ li {
 	list-style-type: square;
 	margin-left: 50px;
 	font-weight: 550;
+	font-size: 18px;
 }
 
 a{
@@ -71,8 +77,9 @@ a:hover {
 	position: relative;
 	float: left;
 	margin-top: 100px;
-	width: 10%;
-	height: 800px;
+	min-width: 15%;
+	min-height: 500px;
+	overflow: hidden;
 	background-color: #E7EFE7;
 	margin-bottom: 10px;
 	border: 5px solid #669A68;
@@ -82,8 +89,9 @@ a:hover {
 	position: relative;
 	float: right;
 	margin-top: 100px;
-	width: 88%;
-	height: 800px;
+	min-width: 80%;
+	min-height: 500px;
+	overflow: hidden;
 	background-color: #E7EFE7;
 	margin-bottom: 10px;
 	border: 5px solid #669A68;
@@ -91,9 +99,12 @@ a:hover {
 
 .center {
 	position: relative;
+	clear: both;
+	float: right;
 	margin-top: 100px;
-	width: 98.75%;
-	height: 800px;
+	min-width: 99.2%;
+	min-height: 500px;
+	overflow: hidden;
 	background-color: #E7EFE7;
 	margin-bottom: 10px;
 	border: 5px solid #669A68;
