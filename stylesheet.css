@@ -7,7 +7,7 @@ div {
 #header {
 	z-index: 1;
 	position: fixed;
-	width: 97.5%;
+	width: 100%;
 	margin-top: -20px;
 	height: 60px;
 	background-color: #198700;
@@ -21,7 +21,7 @@ div {
 	padding-top: 5px;
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
-	color: black;
+	font color: black;
 	float:center;
 }
 
