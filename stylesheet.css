@@ -23,7 +23,7 @@ header h1 {
 
 header h4 {
 	padding: 1em 2em;
-	color: #ffffff;
+	color: #000000;
 }
 
 section div h4 {
@@ -38,8 +38,8 @@ div img {
 .btn.btn-primary {
   border-radius: 0px;
   border: 0px;
-  background-color: black;
-  border-right:solid 1px #ffffff;
+  background-color: #E7EFE7;
+  border-left:solid 1px #ffffff;
 }
 
 .btn.btn-primary:hover {
