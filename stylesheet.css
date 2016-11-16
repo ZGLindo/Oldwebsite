@@ -1,15 +1,18 @@
-body {
-	background-color:#afb4b7;
-	font-family: Georgia;
+html {
+	background-color: gray;
 }
+
+header.container {
+	background-color:gray;
+}
+
 section {
-	background
 }
 
 header {
 	background-color: #E7EFE7;
-	border-radius:10px;
-	border: solid 5px #669A68;
+	border: solid 1px #669A68;
+	font-color: #669A68;
 }
 
 header nav {
@@ -38,13 +41,13 @@ div img {
 .btn.btn-primary {
   border-radius: 0px;
   border: 0px;
-  background-color: #E7EFE7;
-  border-left:solid 1px #ffffff;
+  background-color: gray;
+  border-left:solid 1px black;
 }
 
 .btn.btn-primary:hover {
 	opacity: .5;
-	background-color: gray;
+	background-color: #ffffff;
 
 
 }
