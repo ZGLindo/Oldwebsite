@@ -48,6 +48,9 @@ div img {
 .btn.btn-primary:hover {
 	opacity: .5;
 	background-color: #ffffff;
+}
 
-
+.btn.btn-primary:click {
+	opacity: .5;
+	background-color: #669A68;
 }
