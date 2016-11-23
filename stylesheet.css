@@ -9,12 +9,6 @@ header.container {
 section {
 }
 
-header {
-	background-color: #E7EFE7;
-	border: solid 1px #669A68;
-	font-color: #669A68;
-}
-
 header nav {
   display: flex;
   justify-content: flex-end;
@@ -29,12 +23,8 @@ header h4 {
 	color: #000000;
 }
 
-section div h4 {
-	text-align: center;
-}
-
 div img {
-	border-radius: 45%;
+	border-radius: 50%;
 	border: solid 5px #669A68;
 }
 
@@ -50,7 +40,12 @@ div img {
 	background-color: #ffffff;
 }
 
-.btn.btn-primary:click {
+.btn.btn-primary:active {
 	opacity: .5;
-	background-color: #669A68;
+	background: #669A68;
+}
+
+.btn.btn-primary:focus {
+	opacity: .5;
+	background: #669A68;
 }
