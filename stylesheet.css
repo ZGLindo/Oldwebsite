@@ -1,9 +1,9 @@
 html {
-	background-color: gray;
+	background-color: #ffffff;
 }
 
 header.container {
-	background-color:gray;
+	background-color:#222222;
 }
 
 section {
@@ -25,13 +25,13 @@ header h4 {
 
 div img {
 	border-radius: 50%;
-	border: solid 5px #669A68;
+	border: solid 5px #222222;
 }
 
 .btn.btn-primary {
   border-radius: 0px;
   border: 0px;
-  background-color: gray;
+  background-color: #222222;
   border-left:solid 1px black;
 }
 
@@ -50,5 +50,18 @@ div img {
 	background: #669A68;
 }
 
-.navbox {
+section a 
+.href {
+	color: #666666;
+}
+
+.heading_of_section {
+	font-weight: bold; 
+	text-align: center; 
+	color: #43ac6a
+}
+
+.container, section.jumbotron {
+	background-color: #57BC90;
+	opacity: 1;
 }
