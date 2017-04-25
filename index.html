@@ -1,126 +1,193 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link type="text/css" rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <script type="text/javascript" src="jquery/jquery.js"></script>
-    <script type="text/javascript" src="jquery/myjscript.js"></script>
-    <title>Zaki G Lindo</title>
-  </head>
-  <body style="background-color: #444444; font-family: Georgia;">
-  	<header class="container">
-    	<div class="row">
-      		<h1 class="col-sm-8" style="color: #65df8d;"><b>Zaki G Lindo</b></h1>
-      		<nav class="col-sm-4 text-right" id="navbar">
-            <a class="btn btn-primary" href="#about" role="button"><h4 style= "font: 1em; color:#65df8d;">Zaki</h4></a>
-        		<a class="btn btn-primary" href="#resume" role="button"><h4 style= "font: 1em; color:#65df8d;">Resume</h4></a>
-        		<a class="btn btn-primary" href="#projects" role="button"><h4 style= "font: 1em; color:#65df8d;">Projects</h4></a>
-        		<a class="btn btn-primary" href="#contact" role="button"><h4 style= "font: 1em; color:#65df8d;">Contact</h4></a>
-      		</nav>
-    	</div>
-  	</header>
-  	<section class="jumbotron">
-  		<div class="container">
-  			<div class="row col-sm-4">
-  				<img src="images/Profilepic.jpg"/>
-  			</div>
-  			<div class="row col-sm-8 text-center">
-          <h2><b>Software Developer/Mathematician</b></h2>
-          <h2 style = "padding:0 1em 0 1em;">Software Development and Mathematics are what makes up the manufactured world around us.</h2>
-          <h2>They provide explanations for questions we will have for the rest of our lives. Through advanced principles in each field, we get closer and closer to getting the answers we've yearned for.</h2>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zaki Lindo's Professional Portfolio">
+    <meta name="author" content="Zaki Lindo">
+
+    <title>Zaki G. Lindo</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light"></span> <h2>ZL</h2>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-  		</div>
-  	</section>
+        <!-- /.container -->
+    </nav>
 
-    <!--Zaki Page-->
-    <a id="about" class="smooth"></a>
-    <div class="jumbotron" style="background-color:#222222;">
-      <h2 class="heading_of_section">Zaki</h2>
-    </div>
-    <div id="about">
-      <section class="jumbotron text-center" style="padding: 0em 10em 10em 10em; color:#ffffff;"">
-        <div class="row col-sm-4">
-          <h3 style="font-weight:bolder; text-align:center;">Software Developer</h3>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h3 class="brand-heading" style="padding-top: .5em;">Zaki G. Lindo</h3>
+                        <img  src="img/Profilepic.jpg" style="border-radius:50%; width:22em; height:22em;"/>
+                        <p class="intro-text" style="padding-top:.5em;">Software Developer and Mathematician</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row col-sm-4 text-center">
-	  <h3 style="font-weight:bolder; text-align:center;">+</h3>
+    </header>
+
+    <!-- About Section -->
+    <section class="container content-section text-center">
+        <div class="row">
+            <p id="about"></p>
+            <h2 style="padding-bottom:.5em;"><br>About Zaki</h2>
+            <div><img src="img/Careerfairprofile.png" style=""/></div>
+                <div class="container">
+                <div class="col-md-6">
+                    <h3>Software Developer</h3>
+                    <p>Engineering and design competitions, forged my urge to create. After being introduced to software engineering, my urge became satisfied through my code. I was able to design, prototype, and create a project on a whim. Software Development was clearly the perfect fit for me.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Mathematician</h3>
+                    <p>With a passion for mathematics ever since I was 5 years old, I strive to advance far in understanding abstract principles of Mathematics such as Linear Algebra and Numerical Analysis. I apply these advanced principles in my way of thinking, as well as in software developement.</p>
+                </div>
+            </div>
         </div>
-        <div class="row col-sm-4 text center">
-          <h3 style="font-weight:bolder; text-align:center;">Mathematician</h3>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="content-section text-center">
+        <div id="projects">
+            <div class="container">
+            <h2><br><br>Projects</h2>
+                 <div class="col-md-6 portfolio-item">
+                <a href="http://ZGLindo.github.io">
+                    <img class="img-responsive" src="img/Professional_Website_Projects_image.PNG" style="min-height:22em; min-width:35em;">
+                </a>
+                <h3>
+                    <a href="http://ZGLindo.github.io">Student/Professional Webpage Template</a>
+                </h3>
+                <p>Created a personal website for myself in order to learn tools necessary for web development such as bootstreap, HTML, CSS, JavaScript, etc. This is now used as a template/model for other students that would like to begin learning the essential tools of web development.</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <a href="smashproject.html">
+                    <img class="img-responsive" src="img/MarioPPJab.gif" style="min-height:22em; min-width:35em;" alt="">
+                </a>
+                <h3>
+                    <a href="smashproject.html">Video-Image Recognition/Processing</a>
+                </h3>
+                <p>Analyzed video of advanced techniques in Super Smash Brothers 4 using multi-threaded subprocesses of <b>n</b> frames. Implemented image recognition software to match consecutive frames with target consecutive frames and record each time there is a match.</p>
+            </div>
+            </div>
         </div>
-      </section>
-    </div>
+    </section>
 
-    <!--RESUME PAGE-->
-    <a id="resume" class="smooth"></a>
-    <div class="jumbotron" style="background-color:#222222;">
-          <h2 class="heading_of_section">Resume</h2>
-    </div>
-          <div id="resume">
-            <section class="jumbotron text-center">
-          <section id="doc">
-            <iframe src="https://docs.google.com/document/d/1pyhpv43qEYt_jZDTXpsbQr2go19KXk6-IrtsKW4nN3I/pub?embedded=true" style="width:60em; height:35em; border: solid #000000 2px; scale:2em;"></iframe>
-          </section>
-        </section>
-    </div>
-    
-    <!--PROJECTS PAGE-->
-    <a id="projects" class="smooth"></a>
-    <div class="jumbotron" style="background-color:#222222;">
-          <h2 class="heading_of_section">Projects</h2>
-    </div>
-    <div id="projects">
-      <section class="jumbotron text-center">
-          <!--PROFESSIONAL WEBSITE-->
-          <section id="doc">
-            <a href="http://www.ZGLindo.github.io">
-              <h2 style="padding:0em 0em .5em 0em;"><b>Professional Webpage</b></h2>
-            </a>
-          </section>
-          <!--ACM WEBSITE-->
-          <section id="doc">
-            <a href="http://www.potsdamacm.com">
-              <h2 style="padding:1em 0em .5em 0em;"><b>Association for Computing Machinery Organizational Page</b></h2>
-            </a>
-          </section>
-          <!--IBM MASTER THE MAINFRAME-->
-          <section id="doc">
-            <h2 style="padding:1em 0em .5em 0em;"><b>IBM Master the Mainframe Competition</b></h2>
-            <iframe width="564" height="317" src="https://www.youtube.com/embed/VJ9fXuR6g_Y" frameborder="0" allowfullscreen></iframe>">
-          </section>
-          <!--THEME PARK OPTIMIZER-->
-          <section id="doc">
-            <h2 style="padding:1em 0em .5em 0em;"><b>Theme Park Queue Optimizer</b></h2><h2>(Preliminary Stages)</h2>
-          </section>
-          <!---->
-      </section>
-    </div>
-    
-    <!--CONTACT-->
-    <a id="contact" class="smooth"></a>
-    <div class="jumbotron" style="background-color:#222222;">
-          <h2 class="heading_of_section">Contact Me</h2>
-    </div>
-    <div id="contact">
-        <section class="jumbotron text-center">
-          <section id="doc">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScIiYusqvl10dyOdiw7-3dXqp9-HPFusQGV1jX2oU73HvVgYw/viewform?embedded=true"style="width:60em; height:35em; border: solid #000000 2px; scale:2em;"></iframe>
-          </section>
-        </section>
-    </div>
-  	<div id="footer" class="row col-sm-12 text-center">
-      <p>Zaki Lindo | New York | <a href="#contact"> Contact Me</a></p>
-      <p>Copyright &copy; 2016 [Zaki Lindo]. All Rights Reserved.</p>
-    </div>
+    <!-- Resume Section -->
+    <section class="content-section text-center">
+        <div id="resume">
+            <div class="container">
+                <h2><br><br>Resume</h2>
+                <section id="doc">
+                    <iframe src="https://docs.google.com/document/d/1KsiSmrh-H39p8Sy-sUjU3Vevcomttgdb31G_2OauRCo/pub?embedded=true" style="width:60em; height:35em; border: solid #000000 2px; scale:2em;"></iframe>
+                </section>
+            </div>
+        </div>
+    </section>
 
-    <!--Back to Top-->
-    <div id= "back_to_top">
-      <a href="#" class= "btn btn-primary" role="button" style="position:fixed; bottom:1em; right:0; border-left:none; font-size:28px; background-color:#57BC90; font-weight: bold; color: #222222; opacity:.5;">
-           Back to top
-      </a>
-    </div>
-  </body>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Feel free to contact me at the email address below, or through any of the methods below. Trust me, I'd love to hear from you!</p>
+                <p><a href="mailto:Zaki.Lindo@gmail.com"><u>Zaki.Lindo@gmail.com</u></a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://github.com/ZGLindo" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/zakiz12" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; [Zaki G. Lindo] 2017</p>
+        </div>
+    </footer>
 
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.min.js"></script>
+
+</body>
 </html>
